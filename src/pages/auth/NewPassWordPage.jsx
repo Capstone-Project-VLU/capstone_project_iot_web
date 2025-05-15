@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {useNavigate } from "react-router";
-import { registerApi, resetPasswordAPI, sendCodeApi, verifyOtpApi } from '../../api/authApi';
+import { registerApi, resetPasswordAPI, sendCodeApi, verifyOtpApi } from '../../api/AuthApi';
 import{ useSelector } from 'react-redux';
 import { getUserCredential } from '../../redux/selectors/authSelectors';
 import { apiResponseHandler } from '../../components/Alert/alertComponent';
